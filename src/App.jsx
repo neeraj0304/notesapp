@@ -6,9 +6,8 @@ function App() {
 
   return (
     <>
-      <h1>Hello, world!</h1>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <h1 className='text-3xl text-white'>Hello, world!</h1>
+      
     </>
   )
 }
